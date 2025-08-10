@@ -1,15 +1,15 @@
-#Table Detection Demo
+**Table Detection Demo**
 
 A lightweight web application for detecting table bounding boxes in single-page PDFs using the Microsoft Table Transformer model.
 
 
-##Features
+Features
 - Detects and visualizes table bounding boxes on uploaded PDFs.
 - Saves processed images (with bounding boxes) and JSON metadata (table count, coordinates, and filenames) to the outputs/ folder.
 - Displays a message if no tables are detected.
 
 
-##Setup
+Setup
 For easy installation clone this repository. Then create and activate a virtual environment inside the repository folder (recommended):
 python -m venv venv  
 source venv/bin/activate      # Linux/Mac  
@@ -20,12 +20,12 @@ Install dependencies using the following command:
 pip install -r requirements.txt  
 
 
-##Run the app:
+Run the app:
 python -m src.app 
 Open http://localhost:5001 in your browser. Port can be changed if needed.
 
 
-##Docker
+Docker
 Build and run the container:
 docker-compose build  
 docker-compose up  
