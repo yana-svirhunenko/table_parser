@@ -1,4 +1,5 @@
 Table Detection Demo
+
 A lightweight web application for detecting table bounding boxes in single-page PDFs using the Microsoft Table Transformer model.
 
 
@@ -11,8 +12,8 @@ Features
 Setup
 For easy installation clone this repository. Then create and activate a virtual environment inside the repository folder (recommended):
 python -m venv venv  
-source venv/bin/activate  # Linux/Mac  
-venv\Scripts\activate     # Windows  
+source venv/bin/activate      # Linux/Mac  
+venv\Scripts\activate         # Windows  
 
 
 Install dependencies using the following command:
@@ -21,7 +22,7 @@ pip install -r requirements.txt
 
 Run the app:
 python -m src.app 
-Open http://localhost:5001 (or your specified port) in your browser.
+Open http://localhost:5001 in your browser. Port can be changed if needed.
 
 
 Docker
