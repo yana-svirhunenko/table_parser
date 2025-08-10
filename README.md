@@ -6,8 +6,9 @@ A lightweight web application for detecting table bounding boxes in single-page 
 Features
 
 - Detects and visualizes table bounding boxes on uploaded PDFs.
-- Saves processed images (with bounding boxes) and JSON metadata (table count, coordinates, and filenames) to the outputs/ folder.
+- Saves processed images (with bounding boxes) and JSON metadata (table count, coordinates, and names) to the output/ folder.
 - Displays a message if no tables are detected.
+- Generates table names by extracting up to the first five alphanumeric words from the header text (without using an LLM_ for simplicity).
 
 
 Setup
@@ -41,7 +42,7 @@ Usage
 - Upload a single-page PDF via the web interface.
 - Wait for processing (may take a few seconds).
 - View the detected tables (if any) or a "no tables found" message.
-- Check the outputs/ folder for results.
+- Check the output/ folder for results.
 
 
 Limitations
