@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  table-detector-app:
+    build: .
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./output:/app/output
+    environment:
+      - PYTHONUNBUFFERED=1
